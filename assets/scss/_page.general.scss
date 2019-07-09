@@ -1,0 +1,45 @@
+
+/* GENERAL PAGE TEMPLATE */
+
+.page {
+  .section-header {
+    float: left;
+    width:100%;
+    margin:0;
+
+    h1 {
+      font-size: 40px;
+      margin:30px 0;
+    }
+  }
+
+  .page-content {
+    width: 100%;
+    float: left;
+  }
+
+  .gform_wrapper {
+    width: 100%;
+    float: left;
+  }
+}
+
+
+.loadmorenav {
+  width:100%;
+  position:relative;
+  float:left;
+  display: none;
+}
+
+#infscr-loading {
+  position:fixed;
+  left:20px;
+  bottom:20px;
+  z-index:3;
+}
+
+#infscr-loading img {
+  height:40px;
+  width:auto;
+}

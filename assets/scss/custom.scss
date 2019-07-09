@@ -1,0 +1,36 @@
+/* ERIK REART */
+
+@import "settings.global";
+@import "settings.colors";
+@import "settings.fonts";
+
+@import "header";
+@import "footer";
+@import "sidebar";
+@import "forms";
+
+@import "page.general";
+@import "page.home";
+
+@import "slick";
+@import "slick-theme";
+
+@import "page.blog";
+@import "page.single-post";
+@import "page.single-guide";
+@import "page.single-document";
+
+@import "page.login";
+@import "page.faq";
+@import "page.vacancies";
+@import "page.offices";
+@import "page.guides";
+@import "page.forms";
+@import "page.support";
+
+@import "flexible-content";
+
+@import "aos";
+@import "animation";
+@import "dashboard";
+@import "fixes";

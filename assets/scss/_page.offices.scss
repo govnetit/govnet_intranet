@@ -1,0 +1,206 @@
+/* OFFICES */
+
+.offices-wrap {
+  width: 100%;
+  float: left;
+
+  .section-header {
+    float: left;
+    width:100%;
+    margin:0;
+
+    h1 {
+      font-size: 40px;
+      margin:30px 0;
+    }
+  }
+
+
+
+  /* clear fix */
+.offices_container:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+  .offices-list-wrap {
+    margin:0px 0 100px 0;
+    width: 100%;
+    float: left;
+
+    .location-item {
+      margin-bottom: 60px;
+
+      .inner {
+        padding: 20px;
+      }
+
+      .left-col {
+        display: inline-block;
+        float: left;
+      }
+
+      .right-col {
+        display: inline-block;
+        float: right;
+      }
+
+      &--image {
+        width: 100%;
+        float: left;
+
+        img {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      &--location {
+        width: 100%;
+        float: left;
+        padding:20px 0;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #d7d7d7;
+
+        h3 {
+          margin:0;
+        }
+
+        .maps_url {
+          a {
+            font-size: 14px;
+            padding: 20px;
+
+            &:before {
+              content: '\e81d';
+              font-family: 'fontello';
+              margin-right: 10px;
+              color: #e94646;
+            }
+          }
+        }
+      }
+
+      &--info {
+        width: 100%;
+        float: left;
+        font-size: 14px;
+
+        p {
+          font-size: 14px;
+          margin:0;
+        }
+      }
+    }
+  }
+}
+
+/* SINGLE OFFICE */
+
+.single-office {
+  .hero-section {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    float: left;
+    display: block;
+    background-color: #000;
+
+    .bg-parallax {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      opacity: 0.8;
+
+      &:before {
+      	content:'';
+      	position: absolute;
+      	bottom: 0;
+      	left: 0;
+      	width: 100%;
+      	height: 300px;
+
+      	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,1+100 */
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+      }
+    }
+  }
+
+  .page-content {
+    width: 100%;
+    float: left;
+
+    .location-item {
+      margin-bottom: 60px;
+
+      .inner {
+        padding: 20px;
+      }
+
+      .left-col {
+        display: inline-block;
+        float: left;
+      }
+
+      .right-col {
+        display: inline-block;
+        float: right;
+      }
+
+      &--image {
+        width: 100%;
+        float: left;
+
+        img {
+          width: 100%;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      &--location {
+        width: 100%;
+        float: left;
+        padding:20px 0;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #d7d7d7;
+
+        h3 {
+          margin:0;
+        }
+
+        .maps_url {
+          a {
+            font-size: 14px;
+            padding: 20px;
+
+            &:before {
+              content: '\e81d';
+              font-family: 'fontello';
+              margin-right: 10px;
+              color: #e94646;
+            }
+          }
+        }
+      }
+
+      &--info {
+        width: 100%;
+        float: left;
+        font-size: 14px;
+
+        p {
+          font-size: 14px;
+          margin:0;
+        }
+      }
+    }
+  }
+}

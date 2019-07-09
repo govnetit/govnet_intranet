@@ -1,0 +1,134 @@
+/* FORMS */
+
+.forms-section {
+  .section-header {
+    float: left;
+    width:100%;
+    margin:0;
+
+    h1 {
+      font-size: 40px;
+      margin:30px 0;
+    }
+  }
+
+  .forms-list-wrap {
+    .forms-group {
+      margin:0 0 60px 0;
+      width: 100%;
+      float: left;
+
+      &--header {
+        width: 100%;
+        float: left;
+        display: block;
+        border-bottom: 1px solid #444444;
+        padding: 20px 0;
+
+        .h-title {
+          display: inline-block;
+          float: left;
+
+          h2 {
+            font-size: 20px;
+            font-weight: 700;
+            margin:0;
+            line-height: 1;
+          }
+        }
+
+        .h-text {
+          display: inline-block;
+          float: right;
+          font-size: 20px;
+          font-weight: 700;
+          margin:0;
+          padding: 0 20px;
+          line-height: 1;
+        }
+      }
+
+      .forms-list-ul {
+        width: 100%;
+        float: left;
+        display: block;
+        margin: 0;
+
+        ul {
+          padding: 0;
+          margin:0;
+          width: 100%;
+          float: left;
+
+          li {
+            list-style:none;
+            width: 100%;
+            float: left;
+            padding: 20px 0;
+            background: transparent;
+            border-bottom: 1px solid #B2B2B2;
+
+            .form-name {
+              display: inline-block;
+              float: left;
+            }
+
+            .action-buttons {
+              display: inline-block;
+              float: right;
+
+              &--view {
+                display: inline-block;
+                float: left;
+
+                a {
+                  display: block;
+                  padding: 0 20px;
+
+                  &:before {
+                    content: '\e819';
+                    font-family: "fontello";
+                    margin-right: 10px;
+                  }
+                }
+              }
+
+              &--visit {
+                display: inline-block;
+                float: left;
+
+                a {
+                  display: block;
+                  padding: 0 20px;
+
+                  &:before {
+                    content: '\e819';
+                    font-family: "fontello";
+                    margin-right: 10px;
+                  }
+                }
+              }
+
+              &--download {
+                display: inline-block;
+                float: left;
+
+                a {
+                  display: block;
+                  padding: 0 20px;
+
+                  &:before {
+                    content: '\e81a';
+                    font-family: "fontello";
+                    margin-right: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
